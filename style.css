@@ -1,21 +1,47 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Arbutus&family=IBM+Plex+Sans:wght@500&display=swap');
+
+
+body {
     width: 100%;
+    color: white;
 }
 
-
-.hero {
+.acceuil {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-image: url(image/Bronx.webp);
     background-size: cover;
+    background-position: right;
 }
-
-.register{
+/*=============================
+Button
+===============================*/
+.register {
     background-color: #FF4901 !important;
     color: white;
+    font-size: 1em;
+    text-transform: uppercase;
     text-decoration: none;
-    padding: 5px 10px;
+    padding: 10px 20px;
     font-weight: bold;
 }
 
- 
+.get_started{
+    background-color: #FF4901 !important;
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+/*=============================
+Elements sur la page d'acceuil
+===============================*/
+.fit{
+    padding-top: 6.25em;
+   }
+
+   .fitgher{
+    font-family: 'Arbutus', cursive;
+   }
