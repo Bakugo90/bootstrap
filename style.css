@@ -55,17 +55,21 @@ Elements sur la page d'acceuil
 }
 
 .fitgher {
-    font-family: 'Arbutus', cursive;
+    
     padding-bottom: 1.5em;
 }
 
-main h1 {
-    font-family: 'Roboto Condensed', sans-serif;
-}
+.fitgher h1 {
+    font-family: 'Arbutus', cursive;}
 
 /*=============================
 Elements sur le corps de la page
 ===============================*/
 .cardio, .yoga{
     width: 4em;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.popular{
+    font-family: 'Roboto Condensed', sans-serif;
+
 }
