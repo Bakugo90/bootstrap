@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Arbutus&family=IBM+Plex+Sans:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
 
 body {
     width: 100%;
@@ -13,6 +13,7 @@ body {
     background-size: cover;
     background-position: right;
 }
+
 /*=============================
 Button
 ===============================*/
@@ -26,7 +27,7 @@ Button
     font-weight: bold;
 }
 
-.get_started{
+.get_started {
     background-color: #FF4901 !important;
     color: white;
     font-size: 1em;
@@ -34,14 +35,37 @@ Button
     padding: 10px 20px;
     font-weight: bold;
 }
+.read{
+    background-color: #FF4901 !important;
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    position: relative;
+    left: 50px;
+    bottom: 10px;
+}
 
 /*=============================
 Elements sur la page d'acceuil
 ===============================*/
-.fit{
+.fit {
     padding-top: 6.25em;
-   }
+}
 
-   .fitgher{
+.fitgher {
     font-family: 'Arbutus', cursive;
-   }
+    padding-bottom: 1.5em;
+}
+
+main h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*=============================
+Elements sur le corps de la page
+===============================*/
+.cardio, .yoga{
+    width: 4em;
+}
