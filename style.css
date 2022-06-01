@@ -66,10 +66,35 @@ Elements sur la page d'acceuil
 Elements sur le corps de la page
 ===============================*/
 .cardio, .yoga{
-    width: 4em;
+    width: 6em;
     font-family: 'Roboto Condensed', sans-serif;
 }
 .popular{
     font-family: 'Roboto Condensed', sans-serif;
 
+}
+
+.check{
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+/*=============================
+Elements de la section about
+===============================*/
+
+.about{
+    max-width: 50%;
+}
+.hero{
+padding-right: 0 !important;
+background-color: black;
+color: white;
+}
+
+/*.titre_about{
+    padding-bottom: 0.5em !important;
+}*/
+
+.classes{
+    width: 80%;
 }
