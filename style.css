@@ -91,10 +91,11 @@ background-color: black;
 color: white;
 }
 
-/*.titre_about{
+.titre_about{
     padding-bottom: 0.5em !important;
-}*/
+}
 
 .classes{
     width: 80%;
+    padding-left: 3em;
 }
