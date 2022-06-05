@@ -35,7 +35,8 @@ Button
     padding: 10px 20px;
     font-weight: bold;
 }
-.read{
+
+.read {
     background-color: #FF4901 !important;
     color: white;
     font-size: 1em;
@@ -55,51 +56,153 @@ Elements sur la page d'acceuil
 }
 
 .fitgher {
-    
+
     padding-bottom: 1.5em;
 }
 
 .fitgher h1 {
-    font-family: 'Arbutus', cursive;}
+    font-family: 'Arbutus', cursive;
+}
 
 /*=============================
 Elements sur le corps de la page
 ===============================*/
-.cardio, .yoga{
+.cardio,
+.yoga {
     width: 6em;
     font-family: 'Roboto Condensed', sans-serif;
 }
-.popular{
+
+.popular {
     font-family: 'Roboto Condensed', sans-serif;
 
 }
 
-.check{
+.check {
     font-family: 'Roboto Condensed', sans-serif;
 
 }
+
 /*=============================
 Elements de la section about
 ===============================*/
 
-.about{
+.about {
     max-width: 50%;
 }
-.hero{
-padding-right: 0 !important;
-background-color: black;
-color: white;
+
+.hero {
+    padding-right: 0 !important;
+    background-color: black;
+    color: white;
 }
 
-.titre_about{
+.titre_about {
     padding-bottom: 0.5em !important;
 }
 
-.classes{
+.classes {
     width: 80%;
     padding-left: 3em;
 }
-.change{
+
+.change {
     background-color: black;
     color: white;
+}
+
+.insta {
+    width: 2em;
+    height: 2em;
+}
+
+.name {
+    margin: 0.5em;
+}
+
+.contact {
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+.message {
+    margin-bottom: 1em;
+    margin-left: 1em;
+    padding-right: 13em;
+    padding-bottom: 5em;
+}
+
+.submit {
+    margin-left: 1em;
+}
+
+input {
+    border: none;
+    border-bottom: 0.1em solid white;
+    background-color: unset;
+}
+
+.sponsor {
+    max-width: 80%;
+    height: auto;
+}
+
+/*=============================
+Média queries
+===============================*/
+
+@media all and (max-width: 1000px) {
+
+    .im {
+        display: none !important;
+    }
+
+    .about {
+        max-width: 100%;
+    }
+
+    .girl {
+        display: none;
+    }
+}
+
+
+@media all and (max-width: 760px) {
+
+.boutton{
+background-color: unset !important;
+padding: 0;
+}
+}
+
+
+@media all and (max-width: 570px) {
+
+    .grille {
+        display: none !important;
+    }
+   
+
+    
+}
+
+@media all and (max-width: 417px) {
+
+    .message {
+        padding-right: 3em;
+    }
+   
+
+    
+}
+
+@media all and (max-width: 357px) {
+
+    .centre {
+        display: flex;
+        flex-wrap: wrap;
+    }
+   
+
+    
 }
