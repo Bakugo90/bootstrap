@@ -102,8 +102,11 @@ Elements de la section about
 }
 
 .classes {
-    width: 80%;
+    width: 90%;
     padding-left: 3em;
+}
+class{
+    width: 90%;
 }
 
 .change {
@@ -155,6 +158,15 @@ Média queries
 
     .im {
         display: none !important;
+    }
+    .classes{
+        padding-left: 0.8em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    .class{
+        padding-top: 1em;
+        padding-bottom: 1em;
     }
 
     .about {
